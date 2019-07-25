@@ -43,7 +43,7 @@ func NewManager(processorWorkers int, baseURL url.URL, fetcherCreator http.Fetch
 func (m *Manager) SitemapGenerator(ctx context.Context) (*sitemap.Generator, error) {
 	disallowPrefixes, err := m.fetchRobotsRules(ctx)
 	if err != nil {
-		m.log.Errorf("fetching robots rules: %s", err)
+		m.log.Debugf("fetching robots rules: %s", err)
 	}
 	m.disallowedURLPrefixes = disallowPrefixes
 

@@ -118,5 +118,4 @@ If you wonder, the Manager might become the bottleneck, because it needs to mana
 
  - profile the application to validate with expectations
   I expect the memory to grow a lot faster than CPU usage. CPU is limited by the number of processors. Memory will be used accordingly to the connections graph (the more connections to different pages, the faster memory resources will grow).
- - add Dockerfile (build with CGO_ENABLED=0 + use alpine image / not scratch due to certs)
  - k8s, terraform deployment?
