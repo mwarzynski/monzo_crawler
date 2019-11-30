@@ -1,5 +1,7 @@
 # Crawler
 
+It was one of my interview challenges. I was asked to write a 'crawler which would generate sitemaps' -- specification was literally these words and nothing more.
+
 ## Description
 
 ### Research: what Google says about sitemaps?
